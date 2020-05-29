@@ -1,0 +1,13 @@
+.intro__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+
+@media (max-width: 375px) {
+  .intro__item{
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+}
+}

@@ -1,0 +1,20 @@
+.header__lang {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.header__lang:hover {
+  transition: opasity .5s linear 1s;
+  opacity: .7;
+}
+
+@media (max-width: 375px) {
+  .header__lang {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+@import url(./__items/header__items.css);
+@import url(./__item/header__item.css);
+@import url(./__lang/header__lang.css);
+@import url(./__lang/_type/header__lang_type_active.css);
+@import url(./__logo/header__logo.css);
+
+.header {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}

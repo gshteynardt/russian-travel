@@ -1,0 +1,32 @@
+@import url(./__place/places__place.css);
+@import url(./__title/places__title.css);
+@import url(./__img/places__img.css);
+@import url(./__url/places__url.css);
+@import url(./__url-heading/places__url-heading.css);
+@import url(./__url-link/places__url-link.css);
+@import url(./__paragraph/places__paragraph.css);
+@import url(./__paragraph-item/places__paragraph-item.css);
+
+.places {
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	width: calc(100% - 200px);
+}
+
+@media (max-width: 1024px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 414px) {
+	.places {
+		width: 100%;
+	}
+}

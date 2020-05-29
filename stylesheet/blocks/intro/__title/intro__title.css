@@ -1,0 +1,23 @@
+.intro__title {
+  line-height: 3.7rem;
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 900;
+  padding-bottom: 40px;
+  opacity: 0.4;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .intro__title {
+    opacity: 1;
+  }
+} 
+
+@media (max-width: 480px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    padding-bottom: 35px;
+}
+}

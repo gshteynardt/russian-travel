@@ -1,0 +1,10 @@
+.places__url {
+  grid-area: url;
+  align-self: end;
+}
+
+@media (max-width: 414px) {
+  .places__url {
+    display: none;
+  }
+}

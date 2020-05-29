@@ -1,0 +1,57 @@
+@import url(./__title/cover__title.css);
+@import url(./__paragraph/cover__paragraph.css);
+
+.cover {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../../../images/cover_trans.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 740px;
+  box-sizing: border-box;
+  overflow: auto;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.cover::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background: rgba(42, 44, 47, .3);
+  z-index: 0;
+  position: absolute;
+}
+
+.cover:hover::before {
+  background: rgba(42, 44, 47, .7);
+  transition: background .2s linear .2s;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+      min-height: 648px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+      min-height: 480px;
+      margin: 0 auto 32px;
+  }
+}
+
+@media (max-width: 540px) {
+  .cover {
+    min-height: 200px;
+}
+}

@@ -1,0 +1,21 @@
+.page__photo {
+  margin: 92px 0;
+}
+
+@media (max-width: 1024px) {
+  .page__photo {
+    margin: 92px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__photo {
+    margin: 88px auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .page__photo {
+    margin: 64px auto;
+  }
+}

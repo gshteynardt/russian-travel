@@ -1,0 +1,28 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  margin-right: 18px;
+}
+
+.footer__link:hover {
+  transition: opasity .5s linear 1s;
+  opacity: .7;
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    font-size: 1rem;
+    line-height: 1.2em;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__link {
+    font-size: 1.5rem;
+    line-height: 2.5625rem;
+}
+}

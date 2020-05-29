@@ -1,0 +1,10 @@
+.footer__item {
+  display: inline;
+}
+
+@media (max-width: 375px) {
+  .footer__item {
+    display: block;
+    margin-bottom: 15px;
+  }
+}

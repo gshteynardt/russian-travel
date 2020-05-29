@@ -1,0 +1,26 @@
+.places__paragraph-item {
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .places__paragraph-item {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .places__paragraph-item {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    width: 90%;
+    padding: 24px 0 0;
+    margin: 0 auto;
+  }
+}
