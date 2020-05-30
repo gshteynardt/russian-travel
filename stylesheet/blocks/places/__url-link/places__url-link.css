@@ -8,5 +8,5 @@
 }
 .places__url-link:hover {
   transition: opasity .5s linear 1s;
-  opacity: .7;
+  opacity: .8;
 }

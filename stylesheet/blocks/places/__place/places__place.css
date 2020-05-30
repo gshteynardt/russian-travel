@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .places__place {
     display: block;
     margin-bottom: 60px;

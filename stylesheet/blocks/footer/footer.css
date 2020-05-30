@@ -11,17 +11,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1024px) {
   .footer {
-      width: calc(100% - 96px);
+    width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 768px) {
   .footer {
-      width: calc(100% - 48px);
+    width: calc(100% - 48px);
   }
 }
 

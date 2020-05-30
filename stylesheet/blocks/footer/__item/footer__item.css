@@ -1,10 +1,11 @@
-.footer__item {
-  display: inline;
-}
 
+@media (max-width: 710px) {
+  .footer__item {
+    margin-bottom: 15px;
+  }
+} 
 @media (max-width: 375px) {
   .footer__item {
-    display: block;
     margin-bottom: 15px;
   }
 }

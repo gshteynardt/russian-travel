@@ -9,7 +9,7 @@
 
 .header__lang:hover {
   transition: opasity .5s linear 1s;
-  opacity: .7;
+  opacity: .8;
 }
 
 @media (max-width: 375px) {

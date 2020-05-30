@@ -1,33 +1,4 @@
 .lead__img {
   max-width: 100%;
   width: 100%;
-  min-height: 615px;
-}
-
-@media (max-width: 1024px) {
-  .lead__img {
-      min-height: 580px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__img {
-      min-height: 480px;
-  }
-}
-
-@media (max-width: 540px) {
-  .lead__img {
-    min-height: 320px;
-  }
-}
-@media (max-width: 480px) {
-  .lead__img {
-    min-height: 270px;
-  }
-}
-@media (max-width: 375px) {
-  .lead__img {
-    min-height: 200px;
-  }
 }

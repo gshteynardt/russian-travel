@@ -11,11 +11,6 @@
   width: min(768px,70%,1280px);
 }
 
-@media (max-width: 1024px) {
-  .intro {
-    width: calc(100% - 96px);
-  }
-}
 
 @media (max-width: 768px) {
   .intro {

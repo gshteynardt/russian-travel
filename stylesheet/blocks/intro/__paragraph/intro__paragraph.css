@@ -1,22 +1,8 @@
 .intro__paragraph {
-  font-size: 0.9rem;
-  line-height: 1.6rem;
+  font-size: 16px;
+  line-height: 1.6;
   font-style: normal;
   font-weight: normal;
   margin: 0;
   padding-bottom: 35px;
-}
-
-@media (max-width: 768px) {
-  .intro__paragraph {
-    line-height: 1.6rem;
-    padding-bottom: 57px;
-}
-}
-
-@media (max-width: 480px) {
-  .intro__paragraph {
-    font-size: 1rem;
-    line-height: 1.6875rem;
-}
 }

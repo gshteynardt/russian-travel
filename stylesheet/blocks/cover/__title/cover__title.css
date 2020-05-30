@@ -1,6 +1,7 @@
 .cover__title {
   font-size: 4.5rem;
   line-height: 4.875rem;
+  font-weight: 900;
   margin: 0 auto 16px;
   max-width: 560px;
   text-align: center;
@@ -18,7 +19,7 @@
     font-size: 2rem;
     line-height: 2.1875rem;
     width: 76%;
-    margin: 0 auto 11px;
+    /* margin: 0 auto 11px; */
   }
 }
 @media (max-width: 320px) {

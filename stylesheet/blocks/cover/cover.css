@@ -10,6 +10,7 @@
   background-image: url(../../../images/cover_trans.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   min-height: 740px;
   box-sizing: border-box;
@@ -33,7 +34,7 @@
 }
 
 .cover:hover::before {
-  background: rgba(42, 44, 47, .7);
+  background: rgba(42, 44, 47, .8);
   transition: background .2s linear .2s;
 }
 
@@ -51,6 +52,12 @@
 }
 
 @media (max-width: 540px) {
+  .cover {
+    min-height: 272px;
+}
+
+}
+@media (max-width: 320px) {
   .cover {
     min-height: 200px;
 }

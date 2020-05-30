@@ -1,8 +1,8 @@
 .cover__paragraph {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125rem;
-  line-height: 2rem;
+  font-size: 18px;
+  line-height: 1.22;
   z-index: 1;
   max-width: 382px;
   text-align: center;
@@ -17,8 +17,8 @@
 
 @media (max-width: 540px) {
   .cover__paragraph {
-    font-size: 0.875rem;
-    line-height: 0.9375rem;
+    font-size: 14px;
+    line-height: 1.14;
     margin: 0 auto 30px;
   }
 }

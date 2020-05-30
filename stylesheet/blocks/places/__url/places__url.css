@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .places__url {
     display: none;
   }
